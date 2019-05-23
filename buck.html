@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/buckstyle.css">
+</head>
+
+<body>
+    <div class="flexContainer">
+        <button class="deer" onclick="javascript:buck();">Buck Grunt</button>
+        <button id="btn3" class="save">Save</button>
+        <audio id="sound3">
+            <source src="sound/grunt.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="flexContainer">
+        <button class="female" onclick="javascript:deer();">Female Distress</button>
+        <button id="btn4" class="save">Save</button>
+        <audio id="sound4">
+            <source src="sound/hurt.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div class="flexContainer">
+        <button class="deer" onclick="javascript:deer2();">Mating</button>
+        <button id="btn5" class="save">Save</button>
+        <audio id="sound5">
+            <source src="sound/mating.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div>
+        <a href="calls.html" class="back">Back to Calls</a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/playlist.js"></script>
+    <script type="text/javascript" src="js/animal.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,808 @@
+body {
+  background-color: black;
+}
+.back {
+  display: block;
+  width: 50%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 70%;
+  margin: 20px auto;
+}
+.mallard {
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/duck.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px 0 0 35px;
+  padding: 35px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.female {
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/female.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px 0 0 35px;
+  padding: 35px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin: 0 auto;
+}
+.deer {
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/deer.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px 0 0 35px;
+  padding: 35px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.elk{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/elk.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin: 0 auto;
+ }
+ .cow{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/cowelk.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+ .moose{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/bull.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+ .wolf{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/wolf.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+ .hound{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/hound.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+ .black{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/blackbear.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+ .bunny{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/vermin.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+ .fox{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/fox.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+ .fight{
+  display: block;
+  width: 80%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  background-image: url(../img/pork.jpg);
+  background-size: 200px auto;
+  background-repeat:no-repeat;
+  background-position: left;
+  border-radius:35px 0 0 35px;
+  padding:35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin:0 auto;
+ }
+.save {
+  display: block;
+  width: 20%;
+  background-color: #ffff;
+  text-decoration: none;
+  color: red;
+  border-radius: 0 35px 35px 0;
+  padding: 35px 55px;
+  font-size: 30px;
+  text-align:left;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 950px) {
+	.flexContainer {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		width: 80%;
+		margin: 20px auto;
+	  }
+  .mallard {
+    display: block;
+    width:750px;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/duck.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 35px 0 0 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .deer {
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/deer.jpg);
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 35px 0 0 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin: 0 auto;
+  }
+  .elk{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/elk.jpg);
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:35Px 55px;
+    font-size: 30px;
+    text-align:center;
+    margin: 0 auto;
+   }
+  .female {
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/female.jpg);
+    background-size: 200px auto;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 35px 0 0 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin: 0 auto;
+  }
+  .moose{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:15px;
+    font-size: 30px;
+    text-align:center;
+    margin:0 auto;
+  }
+  .wolf{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/wolf.jpg);
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:35Px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin:0 auto;
+   }
+   .hound{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/hound.jpg);
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:35Px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin:0 auto;
+   }
+   .black{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/blackbear.jpg);
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:35Px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin:0 auto;
+   }
+   .bunny{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/vermin.jpg);
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:35Px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin:0 auto;
+   }
+   .fox{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/fox.jpg);
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:35Px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin:0 auto;
+   }
+   .fight{
+    display: block;
+    width: 80%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    background-image: url(../img/pork.jpg);
+    background-size: 200px auto;
+    background-repeat:no-repeat;
+    background-position: left;
+    border-radius:35px 0 0 35px;
+    padding:35Px 55px;
+    font-size: 30px;
+    text-align:right;
+    margin:0 auto;
+   }
+  .back {
+    display: block;
+    width: 700px;
+    background-color: #ffff;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align: center;
+    margin: auto auto 1em;
+  }
+} 
+@media screen and (max-width: 860px) {
+  .mallard {
+    background-size: 150px auto;
+    height: 95px;
+  }
+  .female{
+    background-size: 150px auto;
+    height: 90px;
+  }
+  .deer{
+    background-size: 150px auto;
+    height: 90px;
+    text-align: center;
+  }
+  .elk{
+    background-size: 150px auto;
+    height: 90px;
+  }
+  .cow{
+    background-size: 150px auto;
+    height: 90px;
+  }
+  .moose{
+    background-size: 150px auto;
+    height: 90px;
+  }
+  .black{
+    background-size: 150px auto;
+    height: 90px;
+    text-align: center;
+  }
+  .bunny{
+    background-size: 150px auto;
+    height: 90px;
+    text-align:right;
+    font-size: 20px
+  }
+  .fox{
+    background-size: 150px auto;
+    height: 90px;
+    text-align:right;
+    font-size: 20px;
+  }
+  .fight{
+    background-size: 150px auto;
+    height: 90px;
+    text-align:right;
+    font-size: 20px;
+  }
+
+  .flexContainer {
+    justify-content: center;
+    flex-direction: row;
+    width: 70%;
+    margin: 20px auto;
+  }
+  .save {
+    display: block;
+    width: 20%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    border-radius: 0 35px 35px 0;
+    padding: 0px 35px;
+    font-size: 20px;
+    text-align:left;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 830px) {
+  .back {
+    display: block;
+    width: 50%;
+    background-color: #ffff;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mallard {
+    font-size: 20px;
+  }
+  .female{
+    font-size: 20px;
+    text-align: center;
+  }
+.deer{
+  font-size: 20px;
+}
+.black{
+  font-size: 20px;
+    text-align: center;
+}
+}
+@media screen and (max-width: 750px) {
+  .flexContainer {
+    justify-content: center;
+    flex-direction: row;
+    width: 90%;
+    margin: 20px auto;
+  }
+  .back {
+    display: block;
+    width: 50%;
+    background-color: #ffff;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .mallard {
+    display: block;
+    width: 80%;
+    border-radius: 35px 0 0 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .female {
+    display: block;
+    width: 80%;
+    border-radius: 35px 0 0 35px;
+    padding: 35px 35px;
+    font-size: 20px;
+    text-align:right;
+    margin: 0 auto;
+  }
+  .deer {
+    display: block;
+    width: 80%;
+    border-radius: 35px 0 0 35px;
+    padding: 35px 55px;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .flexContainer {
+    width: 95%;
+  }
+  .mallard {
+    background-size: 120px auto;
+    height: 75px;
+    padding: 5px;
+    text-align:center;
+  }
+  .female{
+    background-size: 130px auto;
+    height: 75px;
+    padding: 5px;
+    text-align:right;
+    font-size: 30px;
+  }
+  .deer {
+    background-size: 130px auto;
+    height: 75px;
+    padding: 5px;
+    text-align:right;
+    font-size: 30px;
+  }
+  .moose{
+    background-size: 130px auto;
+    padding: 15px;
+    height: 75px;
+    padding: 5px;
+    text-align:center;
+    font-size: 30px;
+  }
+  .wolf{
+    background-size: 130px auto;
+    padding: 15px;
+    height: 75px;
+    padding: 5px;
+    text-align:right;
+    font-size: 20px;
+  }
+  .hound{
+    background-size: 130px auto;
+    padding: 15px;
+    height: 75px;
+    padding: 5px;
+    text-align:right;
+    font-size: 20px;
+  }
+  .save {
+    display: block;
+    width: 20%;
+    background-color: #ffff;
+    text-decoration: none;
+    color: red;
+    border-radius: 0 35px 35px 0;
+    padding: 0px 15px;
+    font-size: 30px;
+    text-align:left;
+    margin: 0 auto;
+  }
+}
+  @media screen and (max-width:495px){
+    .flexContainer {
+      width: 100%;
+    }
+    .mallard {
+      background-size: 120px auto;
+      height: 75px;
+      padding: 15px;
+      font-size: 20px;
+      text-align:center;
+    }
+    .female{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:right;
+      font-size: 20px;
+    }
+    .deer {
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:right;
+      font-size: 20px;
+    }
+    .elk{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:center;
+      font-size: 20px;
+    }
+    .cow{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:center;
+      font-size: 20px;
+    }
+    .moose{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:center;
+      font-size: 20px;
+    }
+    .black{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:right;
+      font-size: 20px;
+    }
+    .bunny{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:right;
+      font-size: 20px;
+    }
+    .fox{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:right;
+      font-size: 20px;
+    }
+    .fight{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      text-align:right;
+      font-size: 20px;
+    }
+    .save {
+      display: block;
+      width: 20%;
+      background-color: #ffff;
+      text-decoration: none;
+      color: red;
+      border-radius: 0 35px 35px 0;
+      padding: 0px 15px;
+      font-size: 20px;
+      text-align:left;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width:411px){
+    .mallard,.deer,.moose {
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      font-size: 20px;
+      text-align:right;
+    }
+    .female,.bunny,.fight{
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      font-size: 15px;
+      text-align:right;
+    }
+    .back {
+      width: 50%;
+      border-radius: 35px;
+      padding: 35px 35px;
+      font-size: 30px;
+      text-align: center;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width:375px){
+    .elk,.cow {
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      font-size: 15px;
+      text-align:right;
+    }
+    .back {
+      width: 50%;
+      border-radius: 35px;
+      padding: 25px 25px;
+      font-size: 15px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .save {
+      width: 20%;
+      border-radius: 0 35px 35px 0;
+      padding: 0px 15px;
+      font-size: 15px;
+      text-align:left;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width:340px){
+    .female,.bunny,.fight,.fox{
+      background-size: 99px auto;
+      height: 70px;
+      padding: 15px;
+      font-size: 15px;
+      text-align:right;
+    }
+    .flexContainer {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width:320px){
+    .mallard,.black {
+      background-size: 120px auto;
+      height: 70px;
+      padding: 15px;
+      font-size: 15px;
+      text-align:right;
+    }
+    .back {
+      width: 50%;
+      border-radius: 35px;
+      padding: 25px 25px;
+      font-size: 15px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .save {
+      width: 20%;
+      border-radius: 0 35px 35px 0;
+      padding: 0px 15px;
+      font-size: 15px;
+      text-align:left;
+      margin: 0 auto;
+    }
+    
+  }

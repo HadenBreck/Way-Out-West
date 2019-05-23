@@ -1,0 +1,86 @@
+
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background-image: url(../img/bear.jpg);
+	background-position:center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.wrap{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 50%;
+	height: 50%;
+}
+
+path{
+	stroke: #fff;
+	fill: #fff;
+	stroke-dasharray: 1800;
+	opacity: 10;
+	animation: animate 3s cubic-bezier(0,0.23,1,.1);
+
+}
+
+@keyframes animate {
+	0%{
+		opacity: 0;
+		fill: none;
+		stroke-dasharray: 1800;
+
+	}
+	30%{
+		opacity: 10;
+		fill: 1800;
+		stroke-dasharray: 1800;
+	}
+	 90%{
+	 	fill: rgba(255,255,255,0);
+
+	 }
+	 100%{
+	 	opacity: 10;
+	 	fill: rgba(255,255,255,1);
+	 	stroke-dasharray: 0;
+	 }
+}
+@media screen and (max-width:875px){
+
+.wrap{
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+	height: 80%;
+}
+}
+@media screen and (max-width:665px){
+
+	.wrap{
+		position: absolute;
+		top: 65%;
+		left: 45%;
+		transform: translate(-50%,-50%);
+		width: 80%;
+		height: 80%;
+	}
+	html{
+		background-position:-150px;
+		
+	
+	}
+	}
+	@media screen and (max-width:500px){
+		html{
+			background-position: -280px;
+		}
+	}

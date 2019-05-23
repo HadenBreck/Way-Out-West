@@ -1,0 +1,279 @@
+html {
+  background: url(../img/Teton.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+audio{
+  width:50%;
+}
+
+
+.playlist {
+  width: 40%;
+  list-style: none;
+  background-color: #111;
+  font-weight: 300;
+  padding: 5px 0;
+  margin: 0 auto;
+  opacity: 0.5;
+}
+
+li,a {
+  color:#ffffff;
+  font-size:30px;
+  text-decoration:none;
+  margin: 20px;
+}
+li,a:active{
+  color: red;
+}
+li,a:hover{
+  color: red;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+}
+
+.btn {
+  display: block;
+  width:50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/ducks.jpg);
+  background-size:200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+  filter: none;
+
+}
+
+
+
+.btn1 {
+  display: block;
+  width: 50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/deer.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+
+.btn2 {
+  display: block;
+  width: 50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/elk.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+
+.btn3 {
+  display: block;
+  width: 50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/bull.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+
+.btn4 {
+  display: block;
+  width: 50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/wolf.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+
+.btn5 {
+  display: block;
+  width:50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/grizzly.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+
+.btn6 {
+  display: block;
+  width: 50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/hunter.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+
+.btn7 {
+  display: block;
+  width: 50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/vermin.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align:center;
+  margin: auto auto 1em;
+}
+
+.btn8 {
+  display: block;
+  width: 50%;
+  background-color: snow;
+  color: red;
+  font-family: fantasy, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  background-image: url(../img/fox.jpg);
+  background-size: 200px auto;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35Px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+.back {
+  display: block;
+  width: 700px;
+  background-color: snow;
+  color: red;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 35px;
+  padding: 35px 55px;
+  font-size: 30px;
+  text-align: center;
+  margin: auto auto 1em;
+}
+footer{
+  color: snow;
+}
+
+@media screen and (max-width:890px) {
+
+  .btn1,.btn4,.btn,.btn2,.btn3,.btn5,.btn6,.btn7,.btn8{
+    background-size: 165px auto;
+    height: 20px;
+  }
+
+
+  
+}
+@media screen and (max-width:790px){
+  .back {
+    display: block;
+    width: 50%;
+    background-color: #ffff;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    background-position: left;
+    border-radius: 35px;
+    padding: 35px 55px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .btn,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width:730px){
+  .btn,.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width:670px){
+  .btn,.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8{
+    background-size: 135px auto;
+      height: 5px;
+      font-size: 20px;
+      text-align:right;
+  }
+    
+}
+@media screen and (max-width:375px){
+  .btn,.btn1,.btn2,.btn3,.btn4,.btn5,.btn6,.btn7,.btn8{
+    background-size: 135px auto;
+      height: 5px;
+      font-size: 15px;
+      text-align:right;
+  }
+    
+}
